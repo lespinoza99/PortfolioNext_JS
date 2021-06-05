@@ -11,21 +11,24 @@ export default function Bullets() {
 
             <div class="box-content w-auto sm:p-4" >
                 <div class="box-content w-auto flex">
-                    <img class=" h-6 w-6 "
+                    <img style={{maxHeight: '1.5rem'}}
+                        class="h-6 w-6 "
                         src="/images/next-js_Logo.png"
                         alt="Next.js Logo"
                     />
                     <p class="pl-2">Built with React framework, Next.js</p>
                 </div>
                 <div class="box-content w-auto flex  ">
-                    <img class="animate-pulse w-6 h-5"
+                    <img style={{maxHeight: '1.5rem'}}
+                        class="animate-pulse w-6 h-5"
                         src="/images/TailwindCSS.png"
                         alt="Tailwind Logo"
                     />
                     <p class="pl-2">Customized using CSS framework, TailwindCSS</p>
                 </div>
                 <div class="box-content w-auto flex">
-                    <img class=" h-5 w-6 "
+                    <img style={{maxHeight: '1.5rem'}}
+                        class="h-5 w-6"
                         src="/images/Sneaker-icon.png"
                         alt="Sneaker"
                     />
